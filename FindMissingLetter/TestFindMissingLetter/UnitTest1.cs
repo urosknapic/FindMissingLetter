@@ -1,3 +1,4 @@
+using FindMissingLetter;
 using NUnit.Framework;
 
 namespace TestFindMissingLetter
@@ -10,9 +11,13 @@ namespace TestFindMissingLetter
     }
 
     [Test]
-    public void Test1()
+    public void WhenEmptyArray_ReturnEmptyString()
     {
-      Assert.Fail();
+      string[] emptyArray = new string[] { };
+
+      string letter = MissingLetterFinder.FindLetter(emptyArray);
+
+      Assert.AreEqual(letter, "");
     }
   }
 }
