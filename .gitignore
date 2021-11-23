@@ -5,3 +5,5 @@ FindMissingLetter/TestFindMissingLetter/bin/Debug/netcoreapp3.1/nunit_random_see
 FindMissingLetter/FindMissingLetter/obj/
 FindMissingLetter/TestFindMissingLetter/obj/
 FindMissingLetter/.vs/FindMissingLetter/v16/.suo
+FindMissingLetter/FindMissingLetter/bin/
+FindMissingLetter/TestFindMissingLetter/bin/
